@@ -1,4 +1,4 @@
-# 🏃‍♂️ FitTrack Pro – Flutter + Native Android Fitness Tracker
+# FitTrack Pro. Flutter + Native Android Fitness Tracker
 
 > 📱 **Real-time fitness stats with native sensor integration and a custom Flutter dashboard**
 
