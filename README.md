@@ -127,7 +127,7 @@ Make sure your Android manifest includes:
 
 ## 📦 Screen Recording
 
-> 🔗 [Watch Screen Recording here](recording.mp4)
+> 🔗 [Watch Screen Recording here](https://ik.imagekit.io/qp1uarozx/recording_GzF5TGc89.mp4?updatedAt=1753569623054)
 
 ---
 
