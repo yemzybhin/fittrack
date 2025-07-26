@@ -1,0 +1,74 @@
+[
+  {
+    "name": "The Spicy Spoon",
+    "area": "Seattle",
+    "votes": 124000,
+    "rate": 4.5
+  },
+  {
+    "name": "Ocean's Delight",
+    "area": "Seaside",
+    "votes": 984445,
+    "rate": 4.3
+  },
+  {
+    "name": "Mountain Grill",
+    "area": "Uptown",
+    "votes": 200655,
+    "rate": 4.8
+  },
+  {
+    "name": "Green Garden Café",
+    "area": "Old Town",
+    "votes": 150554,
+    "rate": 4.6
+  },
+  {
+    "name": "Urban Bite",
+    "area": "City Center",
+    "votes": 180665,
+    "rate": 4.4
+  },
+  {
+    "name": "Sunset Diner",
+    "area": "Beachfront",
+    "votes": 220110,
+    "rate": 4.2
+  },
+  {
+    "name": "The Cozy Table",
+    "area": "East Side",
+    "votes": 175050,
+    "rate": 4.7
+  },
+  {
+    "name": "Street Food Hub",
+    "area": "Market Square",
+    "votes": 130230,
+    "rate": 4.3
+  },
+  {
+    "name": "Rustic Eats",
+    "area": "Suburbs",
+    "votes": 142100,
+    "rate": 4.6
+  },
+  {
+    "name": "Skyline Café",
+    "area": "City Center",
+    "votes": 102230,
+    "rate": 4.5
+  },
+  {
+    "name": "The Vegan Corner",
+    "area": "Greenbelt",
+    "votes": 87050,
+    "rate": 4.4
+  },
+  {
+    "name": "Bistro Blu",
+    "area": "Riverfront",
+    "votes": 210330,
+    "rate": 4.9
+  }
+]
