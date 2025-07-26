@@ -17,6 +17,14 @@ class _WorkoutPageState extends State<WorkoutPage> {
   int _steps = 0;
   int _heartRate = 80;
 
+  void _handleAction(String action) async {
+    try {
+      await _channel.invokeMethod(action);
+    } catch (e) {
+      print("Error invoking $action: $e");
+    }
+  }
+
   void requestNotificationPermission() async {
     if (await Permission.notification.isDenied) {
       await Permission.notification.request();
@@ -35,6 +43,8 @@ class _WorkoutPageState extends State<WorkoutPage> {
         });
       }
     });
+
+
     requestNotificationPermission();
   }
 

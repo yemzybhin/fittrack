@@ -30,9 +30,8 @@ class WorkoutBottomSheet extends StatelessWidget {
             _buildButton(
                 Icons.pause, "Pause", () => _handleAction("pauseWorkout")),
             _buildButton(Icons.play_arrow, "Continue",
-                () => _handleAction("resumeWorkout")),
-            _buildButton(
-                Icons.stop, "Stop", () => _handleAction("stopWorkout")),
+                () => _handleAction("resumeWorkout")
+            )
           ],
         ),
       ),
