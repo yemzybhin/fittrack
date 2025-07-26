@@ -1,3 +1,4 @@
+import 'package:fittrack/core/components/buttons/CustomButton.dart';
 import 'package:fittrack/core/utils/fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -39,18 +40,22 @@ class WorkoutBottomSheet extends StatelessWidget {
   }
 
   Widget _buildButton(IconData icon, String label, VoidCallback onPressed) {
-    return GestureDetector(
-      onTap: onPressed,
+    return CustomButton(
+      onpressed: onPressed,
+      horizontalPadding: 20,
+      verticalPadding: 10,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 28, color: Colors.deepPurple),
+          Icon( icon,size: 28, color: Colors.deepPurple),
           SizedBox(height: 4),
           Text(label,
               style: TextStyle(
                   fontSize: 14,
                   color: Colors.white70,
-                  fontFamily: CustomFonts.Montserrat_Bold)),
+                  fontFamily: CustomFonts.Montserrat_Bold)
+          ),
         ],
       ),
     );

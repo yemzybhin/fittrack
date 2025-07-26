@@ -125,6 +125,12 @@ Make sure your Android manifest includes:
 
 ---
 
+## 📦 Screen Recording
+
+> 🔗 [Watch Screen Recording here](recording.mp4)
+
+---
+
 ## 📦 APK Download
 
 > 🔗 [Download APK Here](fittrack.apk)

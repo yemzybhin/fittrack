@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
-
 import '../../../../core/utils/fonts.dart';
 import '../widgets/custom_progress_ring.dart';
 import '../widgets/heart_rate_display.dart';
@@ -16,14 +15,6 @@ class _WorkoutPageState extends State<WorkoutPage> {
   static const _channel = MethodChannel('fittrack/sensors');
   int _steps = 0;
   int _heartRate = 80;
-
-  void _handleAction(String action) async {
-    try {
-      await _channel.invokeMethod(action);
-    } catch (e) {
-      print("Error invoking $action: $e");
-    }
-  }
 
   void requestNotificationPermission() async {
     if (await Permission.notification.isDenied) {

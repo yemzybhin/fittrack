@@ -87,7 +87,9 @@ class _DashboardPageState extends State<DashboardPage>
 
   Widget _buildContent(DashboardState state) {
     if (state is DashboardLoading) {
-      return const Center(child: CircularProgressIndicator());
+      return const Center(child: CircularProgressIndicator(
+        color: Colors.white,
+      ));
     } else if (state is DashboardError) {
       return Center(child: Text(state.message));
     } else if (state is DashboardLoaded) {
@@ -98,7 +100,6 @@ class _DashboardPageState extends State<DashboardPage>
             builder: (context, constraints) {
               return GridView.count(
                 crossAxisCount: 2,
-                // for first row
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 mainAxisSpacing: 10,
