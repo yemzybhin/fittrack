@@ -78,7 +78,8 @@ class MainActivity : FlutterActivity() {
                 stepCount += (1..5).random()
                 heartRate = (70..130).random()
 
-                if (stepCount % 100 < 2) {
+                if (stepCount % 100 < 5) {
+                    println("Showing notification");
                     showNotification("Great job!", "You've hit $stepCount steps!")
                 }
 
